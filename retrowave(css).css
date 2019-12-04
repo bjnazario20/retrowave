@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background: url("retrowave-background.jpg") no-repeat center fixed;
+  background-size: 100%;
+  font-family: Georgia, serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+  }
+header{
+ background-color: rgba(27,255,245,0.75);
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  border-width: 3px;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 2px solid #000857;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 1em;
+  text-align: center
+}
+
+a {
+	border-style: groove;
+	border-color: #003573;
+    border-width: 5px;
+	background-color: #4B31FF;
+    color: #FFF818;
+    text-decoration: none;
+}
+	
+	a:visited{
+		color: #006888;
+	}
+
+	a:focus, a:hover{
+		color: #F20000;
+		background-color: #fff;
+	}
+	
+	a:active{
+		color: #00FFBB;
+		background-color: #fff;
+	}
+nav {
+	text-align: center;
+}
+p {
+	text-align: center;
+	text-shadow: .1em .1em .2em gray;
+}
+img {
+	object-position: center
+}
+.sale {
+	text-emphasis-color: #FF3131;
+	font-family: helvetica, sans-serif;
+}
